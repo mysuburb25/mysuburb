@@ -1,0 +1,59 @@
+name: mysuburb
+description: My Suburb - Connect with your local community in Australia
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase - versions compatible with Dart 3.3+ and web
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+  firebase_messaging: ^15.1.0
+  
+  # Google Sign In
+  google_sign_in: ^6.2.1
+  
+  # Apple Sign In
+  sign_in_with_apple: ^6.1.0
+  
+  # Image handling
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  
+  # State management
+  provider: ^6.1.1
+  
+  # UI
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  timeago: ^3.6.1
+  
+  # Utilities
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  url_launcher: ^6.2.4
+  permission_handler: ^11.2.0
+  
+  # Navigation
+  go_router: ^13.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
